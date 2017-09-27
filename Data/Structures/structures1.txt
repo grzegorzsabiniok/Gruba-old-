@@ -1,0 +1,13 @@
+name: workshop/carpenter
+	needItem: axe
+	position: 0/0/0.5
+	scale: 0.1
+	interactionPosition: 1/0/0
+	interactionRotation: 0/270/0
+	animation: chop
+	time: 5
+	grid: 0/0/0 0/1/1
+	fundation: 0/-1/0 0/-1/1
+	mesh: CarpenterWorkbench
+	resources: wood, wood
+	items: plank, axe

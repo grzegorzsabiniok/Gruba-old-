@@ -1,0 +1,6 @@
+name: carot
+	growTime: 4
+	stages: Carots_1, Carots_2, Carots_3
+name: mushrom
+	growTime: 8
+	stages: Mushrom_1, Mushrom_2, Mushrom_3

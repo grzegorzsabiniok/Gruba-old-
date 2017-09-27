@@ -1,0 +1,9 @@
+name: axe
+	size: 0
+	tags: canChop
+	icon: axe
+	model: axe
+	resources: handle, head
+	onGround: -0.3/0/-0.1 0/45/0 0.08
+	inHand: arm_r -0.09/0.53/9.55 180/0/270 1
+	inBackpack: body 7/4.1/1.8 109.9/11.351/-256.8 1

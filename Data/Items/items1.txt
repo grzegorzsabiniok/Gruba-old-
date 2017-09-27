@@ -1,0 +1,114 @@
+name: wood
+	size: 1
+	tags: handle, wood, constructionMaterial
+	icon: wood
+	model: wood
+	resources: 
+	onGround: 0.0/0.0/0.0 0.0/0.0/0.0 0.07
+	inHand: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+	inBackpack: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+name: stoneBrick
+	size: 1
+	tags: 
+	icon: stoneBrick
+	model: stoneBrick
+	resources: 
+	onGround: 0.0/0.0/0.0 0.0/0.0/0.0 0.07
+	inHand: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+	inBackpack: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+name: stone
+	size: 1
+	tags: head
+	icon: stone
+	model: stone
+	resources: 
+	onGround: 0.0/0.0/0.0 0.0/0.0/0.0 0.07
+	inHand: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+	inBackpack: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+name: shortSword
+	size: 0
+	tags: 
+	icon: shortSword
+	model: shortSword
+	resources: 
+	onGround: -0.3/0.5/-0.3 221.7/-136.0/-268.5 0.08
+	inHand: arm_larm_r -0.1/0.5/9.6 180.0/0.0/270.0 1
+	inBackpack: body 5.8/6.0/2.7 70.6/172.2/81.7 1
+name: shield
+	size: 0
+	tags: 
+	icon: shield
+	model: shield
+	resources: 
+	onGround: 0.0/0.3/-0.2 107.0/190.0/-144.0 0.07
+	inHand: arm_l 0.0/0.0/0.0 0.0/0.0/0.0 0
+	inBackpack: body 0.0/8.7/-5.3 90.0/180.0/0.0 1
+name: plank
+	size: 1
+	tags: 
+	icon: plank
+	model: plank
+	resources: wood
+	onGround: 0.0/0.0/0.0 0.0/0.0/0.0 0.07
+	inHand: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+	inBackpack: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+name: pickaxe
+	size: 0
+	tags: 
+	icon: pickaxe
+	model: pickaxe
+	resources: handle, head
+	onGround: -0.3/0.5/-0.3 221.7/-136.0/-268.5 0.08
+	inHand: arm_larm_r -0.1/0.5/9.6 180.0/0.0/270.0 1
+	inBackpack: body 5.8/6.0/2.7 70.6/172.2/81.7 1
+name: ironOre
+	size: 1
+	tags: metal
+	icon: ironOre
+	model: ironOre
+	resources: 
+	onGround: 0.0/0.0/0.0 0.0/0.0/0.0 0.07
+	inHand: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+	inBackpack: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+name: bar
+	size: 1
+	tags: 
+	icon: ironBar
+	model: ironBar
+	resources: metal
+	onGround: 0.0/0.0/0.0 0.0/0.0/0.0 0.07
+	inHand: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+	inBackpack: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+name: hoe
+	size: 0
+	tags: 
+	resources: handle, head
+	onGround: -0.3/0.0/-0.1 0.0/45.0/0.0 0.08
+	inHand: arm_larm_r -0.1/0.5/9.6 180.0/0.0/270.0 1
+	inBackpack: body 5.8/6.0/2.7 70.6/172.2/81.7 1
+name: carot
+	size: 0
+	tags: carot, plant, food
+	icon: carots
+	model: Carots
+	resources: 
+	onGround: -0.3/0.5/-0.3 221.7/-136.0/-268.5 0.08
+	inHand: arm_larm_r -0.1/0.5/9.6 180.0/0.0/270.0 1
+	inBackpack: body 5.8/6.0/2.7 70.6/172.2/81.7 1
+	properties: food/15
+name: mushrom
+	size: 0
+	tags: carot, plant
+	resources: 
+	onGround: -0.3/0.5/-0.3 221.7/-136.0/-268.5 0.08
+	inHand: arm_larm_r -0.1/0.5/9.6 180.0/0.0/270.0 1
+	inBackpack: body 5.8/6.0/2.7 70.6/172.2/81.7 1
+name: carpenter
+	size: 1
+	tags: structure
+	icon: carpenter
+	model: scroll
+	resources: wood
+	onGround: 0.0/0.0/0.0 0.0/0.0/0.0 0.07
+	inHand: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
+	inBackpack: arm_l -0.6/4.4/0.0 0.0/0.0/90.0 1
