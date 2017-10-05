@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c694d3e329878a43a0251301332d224, type: 3}
+  m_Name: StandardSettings
+  m_EditorClassIdentifier: 
+  chunkSize: {x: 32, y: 32, z: 32}
+  mapSize: {x: 6, y: 4, z: 6}
+  mapAmplitude: 75
+  mapCubature: 1
+  mapHeight: 30
+  mapLevelsCount: 12
+  mapLevelHeight: 5
+  waterLevel: 48
+  peakLevel: 61
+  peakCubature: 5
+  peakHeight: 8
+  treeDensity: 0.5
