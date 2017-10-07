@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Name: StandardSettings
   m_EditorClassIdentifier: 
   chunkSize: {x: 32, y: 32, z: 32}
-  mapSize: {x: 6, y: 4, z: 6}
+  chunkCount: {x: 6, y: 4, z: 6}
   mapAmplitude: 75
+  treeDensity: 0.5
   mapCubature: 1
   mapHeight: 30
   mapLevelsCount: 12
@@ -22,4 +23,3 @@ MonoBehaviour:
   peakLevel: 61
   peakCubature: 5
   peakHeight: 8
-  treeDensity: 0.5

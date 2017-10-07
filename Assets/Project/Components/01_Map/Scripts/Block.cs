@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapBlock
+[System.Serializable]
+public class Block
 {
     public string name;
-    public bool wolkable;
-    public int submaterial;
+    public bool isWalkable, isRenderer;
+    public Material material;
 }
