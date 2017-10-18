@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapChunk : MonoBehaviour {
+public class MapChunk : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public void ChunkInit()
+    {
+
+    }
+    public void Generate()
+    {
+
+    }
 }

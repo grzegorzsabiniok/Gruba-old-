@@ -112,6 +112,47 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &777769393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 777769395}
+  - component: {fileID: 777769394}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &777769394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 777769393}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a5048fe0320314a80d6663e83b3b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: 
+--- !u!4 &777769395
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 777769393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7714243, y: -3.231535, z: 10.548657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &807591837
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,32 +178,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 807591837}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c9f24961dd318f478cde4d474bda65d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2200b303bde915748b4d56a1d69d9ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listOfBlocks:
-  - name: air
-    isWalkable: 0
-    isRenderer: 0
-    material: {fileID: 0}
-  - name: stone
-    isWalkable: 0
-    isRenderer: 0
-    material: {fileID: 0}
-  settings: {fileID: 0}
+  materialsPrefabs:
+  - {fileID: 2100000, guid: 7e67e9f133beba042acb54226f76b3ea, type: 2}
+  - {fileID: 2100000, guid: 90be24750696b89499be469901e7a8cf, type: 2}
+  - {fileID: 2100000, guid: c3bb2302d74ab6a4eb56fa49f4053071, type: 2}
+  - {fileID: 2100000, guid: 2ee6ccdbc5be3b84b834b2c055402e88, type: 2}
 --- !u!114 &807591839
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 807591837}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c98d7425a5d0774da9e1e471df8875b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   seed: 0
-  generator: {fileID: 807591838}
+  generator: {fileID: 0}
 --- !u!4 &807591840
 Transform:
   m_ObjectHideFlags: 0

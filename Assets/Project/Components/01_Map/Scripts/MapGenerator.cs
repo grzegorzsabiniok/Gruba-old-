@@ -14,7 +14,7 @@ public class MapGenerator : MonoBehaviour
     {
         for (int i = 0; i < listOfBlocks.Length; i++)
         {
-            blocks.Add(listOfBlocks[i].name, listOfBlocks[i]);
+            //blocks.Add(listOfBlocks[i].name, listOfBlocks[i]);
         }
     }
     public Block[,,] GenerateMap()

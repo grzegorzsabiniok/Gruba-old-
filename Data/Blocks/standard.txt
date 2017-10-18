@@ -1,0 +1,8 @@
+[{
+		"name": "air",
+		"textureMaterialName": "standard"
+	}, {
+		"name": "stone",
+		"textureMaterialName": "standard"
+	}
+]

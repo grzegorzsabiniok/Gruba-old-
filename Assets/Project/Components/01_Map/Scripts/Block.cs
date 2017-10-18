@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Block
 {
-    public string name;
-    public bool isWalkable, isRenderer;
-    public Material material;
+    private BlockMaterial material;
+    private float temperature;
+    private List<Subject> objectsOnBlock = new List<Subject>();
 }
